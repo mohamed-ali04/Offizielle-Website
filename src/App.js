@@ -224,7 +224,7 @@ export default function Home() {
             {!isMobile && "LinkedIn"}
           </a>
           <a
-            href="./dateien/bewerbugsunterlagen Mohamed Ali.pdf"
+            href="/Lebenslauf Mohamed Ali .pdf"
             download="bewerbugsunterlagen Mohamed Ali.pdf"
             target="_blank"
             style={{
@@ -406,7 +406,7 @@ export default function Home() {
               }}
             >
               <img
-                src="/Bewerbungsfoto-Fotostudio-Farbtonwerk-Beispiel-14l-768x549 (1).webp"
+                src="/Foto.jpg"
                 alt="Mohamed Ali"
                 style={{
                   width: "100%",
@@ -773,7 +773,7 @@ export default function Home() {
               onMouseEnter={() => videoRef.current?.play()}
               onMouseLeave={() => videoRef.current?.pause()}
             >
-              <video 
+              {/* <video 
                 ref={videoRef}
                 controls
                 muted
@@ -781,12 +781,14 @@ export default function Home() {
                 playsInline
                 poster="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              >
-                {/* Placeholder video - User should replace this */}
+              > */ }
+                {/* Placeholder video - User should replace this 
                 <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
                 Ihr Browser unterstützt das Video-Tag nicht.
-              </video>
-            </div>
+              </video>*/}
+            </div> 
+              
+            
 
             <div style={{
               display: 'flex',
